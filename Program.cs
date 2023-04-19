@@ -13,7 +13,7 @@ if (remainder > 0 && result > 60)
 {
     Console.WriteLine($"{name}, {userEntry} is odd and less than 60.");
 }
-//Cas: It's giving me an error just on lines 13 & 23 because && cannot be applied to int and bool. But I've parset to double. Not sure what's happening.
+//Cas: It's giving me an error just on lines 17 & 27 because && cannot be applied to int and bool. But I've parset to double. Not sure what's happening.
 else if (remainder = 0 && result > 60)
 {
     Console.WriteLine($"{name}, {userEntry} is even and greater than 60.");
